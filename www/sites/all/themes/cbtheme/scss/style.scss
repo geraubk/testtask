@@ -1,0 +1,58 @@
+// Default variables.
+@import 'default-variables';
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+body {}
+
+aside.second {
+  border-left: 1px solid #eee;
+}
+
+// Node content
+article.node {
+  img {
+    border: 1px solid #eee;
+    margin: 10px auto;
+  }
+}
+
+// Articles view
+.view-Articles {
+  .view-content {
+    & > table {
+      margin-bottom: 50px;
+    }
+    h3 {
+      text-transform: uppercase;
+    }
+    .views-field-created {
+      color: #999999;
+    }
+
+  }
+}
+
+// Related articles block
+#block-views-related-articles-block {
+  font-size: 12px;
+  .views-row {
+    margin: 5px 0;
+  }
+}
+
+// Footer
+.footer {
+  font-size: 12px;
+  .footer-menu .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .copyright {
+    text-align: center;
+  }
+}

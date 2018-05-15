@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the test_task_feature feature.
+ */
+
+include_once 'test_task_feature.features.inc';
